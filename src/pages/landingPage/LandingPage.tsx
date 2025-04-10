@@ -79,7 +79,7 @@ const LandingPage = () => {
             onComplete={handleTaskComplete}
           />
 
-          <Tabs defaultValue='tasks' className='mt-8 w-[550px]'>
+          <Tabs defaultValue='tasks' className='mt-8 '>
             <TabsList className='grid w-full grid-cols-2'>
               <TabsTrigger value='tasks'>Tasks</TabsTrigger>
               <TabsTrigger value='settings'>Settings</TabsTrigger>
